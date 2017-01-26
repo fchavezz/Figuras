@@ -5,7 +5,7 @@ abstract class Figura
 	private $perimetro;
 	private $area;
 	private $tipo;
-    const pi=3.1416;
+    const PI=3.1416;
 
     /**
      * Figura constructor.
@@ -78,4 +78,3 @@ abstract class Figura
 
 }
 
-?>

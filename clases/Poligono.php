@@ -26,7 +26,7 @@ class Poligono extends Figura
     public function calcularArea()
     {
         $area=360/$this->clados;
-        $apotema=($this->cmlado/2)/(tan(($area/2)*(pi()/180)));
+        $apotema=($this->cmlado/2)/(tan(($area/2)*(PI()/180)));
         $area=(parent::getPerimetro()*($apotema))/2;
         parent::setArea($area);
     }
